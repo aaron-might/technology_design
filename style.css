@@ -8,3 +8,13 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+header {
+    background-color:url(images/banner.jpg);
+    background-size: cover;
+}
