@@ -27,6 +27,7 @@ nav {
     margin: 3rem 0 1rem;
     font-weight: bold;
 }
+
 .logo {
     font-size: 3rem;
     margin-right: 1rem;
@@ -68,6 +69,7 @@ nav a.active {
 }
 .col {
     padding: 1rem; 
+    flex: 1;
 }
 
 .col img {
@@ -88,5 +90,19 @@ background-color: #007ff4;
 border: none;
 color: #fff;
 font-size:1.5rem;
-padding: 2rem 3rem;
+padding: 1rem 2rem;
+}
+
+@media screen and (max-width:768px){
+    .hidden-mobile {
+        display: none;
+    }
+    
+    ..logo {
+        margin-left: 1rem;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
