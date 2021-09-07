@@ -17,7 +17,25 @@ body {
 header {
     background-image:url(images/banner.jpg);
     background-size: cover;
+    background-position: center center;
     height:300px;
     margin-bottom: 2rem;
-
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 3rem;
+}
+.inner-nav {
+    flex: 1;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.big {
+    font-size: 3rem;
 }
